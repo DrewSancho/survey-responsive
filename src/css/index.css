@@ -32,9 +32,9 @@ select {
 textarea {
 	background-color: #4399cc;
 	display: block;
-	border-style: solid;
-	border-top-style: none;
+	border: 2px solid #fff;
 	width: 100%;
+	padding: 3px;
 }
 
 ol {
