@@ -1,0 +1,73 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	background-color: #4399cc;
+}
+.maincontent {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+input[type="text"] {
+	width: 100%;
+	border-style: solid;
+}
+
+input {
+	background-color: #4399cc;
+}
+
+select {
+	width: 100%;
+	background-color: #4399cc;
+}
+textarea {
+	background-color: #4399cc;
+	display: block;
+	border-style: solid;
+	border-top-style: none;
+}
+
+ol {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #166fa1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #166fa1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #166fa1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #166fa1;
+}
+
+@media screen and (min-width: 500px) {
+	.column1, .column2 {
+		width:	50%;
+		float: left;
+	}
+	.column3 {
+		clear: both;
+		width: 100%;
+	}
+}
+@media screen and (min-width: 900px) {
+	.column1, .column2 {
+		width: 33%;
+	}	
+	.column3 {
+		width: 33%;
+		clear: none;
+		float: left;
+	}
+}
